@@ -34,7 +34,7 @@ message = SlackWebhook('examplewebhook.com', author='DiscordHooks')
 attachment = SlackAttachment(
   pretext='Hello world! I am an example Slack webhook!',
   title='Example Webhook',
-  title_link='https://github.com/PiratesOnlineRewritten/DiscordHooks',
+  title_link='https://github.com/NxtStudios/DiscordHooks',
   image_url='https://cdn.worldvectorlogo.com/logos/discord.svg')
 message.addAttachment(attachment)
 
