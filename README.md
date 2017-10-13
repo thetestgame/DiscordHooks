@@ -4,6 +4,10 @@ DiscordHooks
 ============
 DiscordHooks is an open source library for sending messages to Discord from Python 2.7 using Discords built in channel webhooks
 
+## Dependencies
+* <a href="https://github.com/requests/requests">requests</a>
+
+
 ## Supports
 DiscordHooks currently supports the following Discord webhooks
 * Generic
