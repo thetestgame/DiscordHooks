@@ -103,7 +103,7 @@ class GenericWebhook(WebhookBase):
         """
 
         data = {}
-        data['content']= self.message
+        data['content'] = self.message
 
         if self.author:
             data['username'] = self.author
@@ -176,7 +176,7 @@ class SlackWebhook(WebhookBase):
             att['title'] = attachment.title
             att['title_link'] = attachment.title_link
             att['image_url'] = attachment.image_url
-            att['thumb_url'] = "http://example.com/path/to/thumb.png"
+            att['thumb_url'] = ""
             att['footer'] = attachment.footer
             att['footer_icon'] = attachment.footer_icon
             att['ts'] = attachment.ts
